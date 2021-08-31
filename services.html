@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Img/pizza.png" type="image/x-icon">
+    <title>Services</title>
+    <style>
+        body{
+            background: url(img/pexels-pixabay-280453.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .container ul a{
+            list-style: none;
+            text-decoration: none;
+            float: left;
+            margin-left: 82px;
+            margin-bottom: 25px;
+            font-size: 35px;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-weight: bolder;
+            color: white;
+        }
+        .container ul a:hover{
+            background: white;
+            color: black;
+            border-radius: 20px;
+            padding: 12px;
+        }
+        .container{
+            margin: -8px -8px 0px -8px;
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.548);
+            position: sticky;
+            top: 0;
+        }
+        #navimg{
+            width: 40px;
+            margin: 32px -100px -80px 20px;
+            padding: 5px;
+            background: yellow;
+            border-radius: 100px;
+        }
+        .services{
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .burgers{
+            display: flex;
+            text-align:center;
+            background: rgba(226, 241, 231, 0.274);
+            /* border: 2px solid rgba(35, 155, 109, 0.356); */
+            border-radius: 40px;
+            margin:80px;
+        }
+        #burgerhead{
+            font-family: 'Lobster', cursive;
+            font-size: 40px;
+        }
+        #burgerpara{
+            font-family: 'Dosis', sans-serif;
+        }
+        #burgerimg{
+            width: 100px;
+            border-radius: 20px;
+        }
+        .shawarma{
+            display: flex;
+            text-align:center;
+            background: rgba(226, 241, 231, 0.274);
+            /* border: 2px solid rgba(35, 155, 109, 0.356); */
+            border-radius: 40px;
+            margin:80px;
+        }
+        #shawarmaimg{
+            width: 100px;
+            border-radius: 20px;
+        }
+        #shawarmahead{
+            font-family: 'Lobster', cursive;
+            font-size: 40px;
+        }
+        #shawarmapara{
+            font-family: 'Dosis', sans-serif;
+        }
+
+        .pizza{
+            display: flex;
+            text-align:center;
+            background: rgba(226, 241, 231, 0.274);
+            /* border: 2px solid rgba(35, 155, 109, 0.356); */
+            border-radius: 40px;
+            margin:80px;
+            flex-direction: row;
+        }
+        #pizzaimg{
+            width: 100px;
+            border-radius: 20px;
+        }
+        #pizzahead{
+            font-family: 'Lobster', cursive;
+            font-size: 40px;
+        }
+        #pizzapara{
+            font-family: 'Dosis', sans-serif;
+        }
+
+        .delivery{
+            display: flex;
+            text-align:center;
+            background: rgba(226, 241, 231, 0.274);
+            /* border: 2px solid rgba(35, 155, 109, 0.356); */
+            border-radius: 40px;
+            margin:80px;
+        }
+        #deliveryimg{
+            width: 100px;
+            border-radius: 20px;
+        }
+        #deliveryhead{
+            font-family: 'Lobster', cursive;
+            font-size: 40px;
+        }
+        #deliverypara{
+            font-family: 'Dosis', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img/pizza.png" alt="" id="navimg">
+        <header>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="services.html"><li>Services</li></a>
+                <a href="contactus.html"><li>Contact Us</li></a>             
+            </ul>
+        </header>
+    </div>
+
+    <div class="services">
+        <h3>Our Services</h3>
+    </div>
+
+    <div class="burgers">
+        <img id="burgerimg" src="img/pexels-jonathan-borba-2983098.jpg" alt="">
+        <h3 id="burgerhead">Burgers</h3>
+        <p id="burgerpara">A hamburger is a food, typically considered a sandwich, consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled. Our Burgers are crunchy, fresh, tasty and very smooth. The recipe of burgers is with full of sauces ,chicken and salads.</p>
+    </div>
+
+    <div class="shawarma">
+        <img id="shawarmaimg" src="img/shawarma.jpg" alt="">
+        <h3 id="shawarmahead">Shawarma's</h3>
+        <p id="shawarmapara">Shawarma is a Levantine Arab dish consisting of meat cut into thin slices, stacked in a cone-like shape, and roasted on a slowly-turning vertical rotisserie or spit. Originally made with lamb, mutton or chicken, today's shawarma may also be turkey, beef, or veal.</p>
+    </div>
+
+    <div class="pizza" class="items">
+        <img id="pizzaimg" src="img/wc1813154-pizza-wallpapers.jpg" alt="">
+        <h3 id="pizzahead">Pizza's</h3>
+        <p id="pizzapara">Pizza is an Italian dish consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.</p>
+    </div>
+
+    <div class="delivery">
+        <img id="deliveryimg" src="img/pngwing.com.png" alt="">
+        <h3 id="deliveryhead">Delivery Services</h3>
+        <p id="deliverypara">Delivery is the process of transporting goods from a source location to a predefined destination. Cargo (physical goods) is primarily delivered via roads and railroads on land, shipping lanes on the sea, and airline networks in the air. Certain types of goods may be delivered via specialized networks, such as pipelines for liquid goods, power grids for electrical power and computer networks such as the Internet or broadcast networks for electronic information.[1] Car transport is a particular subgroup; a related variant is Autorack, which involves transport of autos by railroads.
+
+            Delivery is a fundamental component of commerce and trade, and involves transport and distribution. The general process of delivering goods is known as distribution, while the study of effective processes for delivery and disposition of goods and personnel is called logistics. Firms specializing in delivering commercial goods from the point of production or storage to their point of sale are generally known as distributors, while those that specialize in the delivery of goods to the consumer are known as delivery services. Postal, courier, and relocation services also deliver goods for commercial and private interests</p>
+    </div>
+</body>
+</html>
